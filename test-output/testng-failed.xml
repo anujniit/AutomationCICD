@@ -6,11 +6,31 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="anujpal.PurchaseAProductEnd_To_End.ConfirmMessageTest">
+        <methods>
+          <include name="confirmPageTest"/>
+        </methods>
+      </class> <!-- anujpal.PurchaseAProductEnd_To_End.ConfirmMessageTest -->
+      <class name="anujpal.PurchaseAProductEnd_To_End.ProductAddTest">
+        <methods>
+          <include name="addProductToCart"/>
+        </methods>
+      </class> <!-- anujpal.PurchaseAProductEnd_To_End.ProductAddTest -->
       <class name="anujpal.PurchaseAProductEnd_To_End.CheckOutTest">
         <methods>
           <include name="checkOutItemTest"/>
         </methods>
       </class> <!-- anujpal.PurchaseAProductEnd_To_End.CheckOutTest -->
+      <class name="anujpal.PurchaseAProductEnd_To_End.CartTest">
+        <methods>
+          <include name="myCart"/>
+        </methods>
+      </class> <!-- anujpal.PurchaseAProductEnd_To_End.CartTest -->
+      <class name="anujpal.PurchaseAProductEnd_To_End.LoginTest">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- anujpal.PurchaseAProductEnd_To_End.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
