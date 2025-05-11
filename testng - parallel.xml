@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="classes" thread-count="5">
+<listeners>
+<listener class-name="listeners.TestListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Parallel Test">
+    <classes>
+      <class name="anujpal.PurchaseAProductEnd_To_End.BaseTest"/>
+      <class name="anujpal.PurchaseAProductEnd_To_End.LoginTest"/>
+      <class name="anujpal.PurchaseAProductEnd_To_End.ProductAddTest"/>
+      <class name="anujpal.PurchaseAProductEnd_To_End.CartTest"/>
+      <class name="anujpal.PurchaseAProductEnd_To_End.CheckOutTest"/>
+      <class name="anujpal.PurchaseAProductEnd_To_End.ConfirmMessageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
