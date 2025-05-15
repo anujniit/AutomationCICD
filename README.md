@@ -3,7 +3,7 @@
 **Test Objective:**
 To validate a complete user journey on Rahul Shetty’s e-commerce demo site — from user login to product checkout — ensuring the functionality and data flow across modules (login, product catalog, cart, checkout, order confirmation).
 
-**Test Flow Summary**
+**Test Flow Summary:**
 
 **Launch Application**
 
@@ -40,3 +40,15 @@ Submit order
 **Order Confirmation**
 
 Capture confirmation message (e.g., "Thank you for your order.")
+
+**Tools Used:**
+
+Selenium WebDriver (Java) for UI automation.
+
+TestNG or JUnit for assertions and structure.
+
+Maven for project build management.
+
+Extent Reports for test reporting.
+
+Data-driven testing using Excel.
